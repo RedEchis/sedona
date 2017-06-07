@@ -1,0 +1,18 @@
+body{
+   min-width:768px;
+   max-width:1200px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 22px;
+   font-family: "Roboto", "Arial", sans-serif;
+   background: #8a9c8f;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 860px;
+  margin: 0 auto;
+}
